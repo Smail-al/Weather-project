@@ -5,29 +5,48 @@ function App () {
   const [cityIndex, setCityIndex] = useState(0);
   const cityList = [
     {
-      imagebckg: "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
+      imagebckg: "https://www.globe-gazers.com/wp-content/uploads/2023/11/jean-baptiste-d-CVs3PifGWsM-unsplash-1.jpg",
       name: 'Paris',
       countryName: "France",
-      tempC: 15,
-      imageweather : '',
-      condition: 'Ciel nuageux',
+      tempC: "10°c",
+      imageweather : 'https://www.pngall.com/wp-content/uploads/11/Weather-PNG-Images-HD.png',
+      condition: 'Snowy',
 
     },
     {
-      imagebckg: "https://wallpapercave.com/wp/wp5522981.jpg",
+      imagebckg: "https://favim.com/pd/p/orig/2018/09/02/places-london-rainy-day-Favim.com-6253361.jpg",
       name: 'London',
       countryName: "England",
-      tempC: 12,
-      imageweather : '',
-      condition: 'Pluvieux',
+      tempC: "12°c",
+      imageweather : 'https://www.pngall.com/wp-content/uploads/11/Weather-PNG-Image-File.png',
+      condition: 'Rainy',
     },
     {
-      imagebckg: "https://i.pinimg.com/736x/73/27/b1/7327b14150f01c822e43fee62c46453f.jpg",
+      imagebckg: "https://isardasorensen.wordpress.com/wp-content/uploads/2012/05/tp-tuesday-storm-5-29-12.jpg",
       name: 'NewYork',
       countryName: "USA",
-      tempC: 20,
-      imageweather : '',
-      condition: 'Ensoleillé',
+      tempC: "15°c",
+      imageweather : 'https://www.pngall.com/wp-content/uploads/11/Weather-PNG-Picture.png',
+      condition: 'Stormy',
+    },
+    {
+      imagebckg: "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Marrakech-3.jpg",
+      name: 'Marrakech',
+      countryName: "Morocco",
+      tempC: "32°c",
+      imageweather : 'https://www.pngall.com/wp-content/uploads/2/Sunshine-PNG-Free-Download.png',
+      condition: 'Sunny',
+    },{
+      imagebckg: "https://media.istockphoto.com/id/959955744/photo/tourists-walking-under-the-colosseum-in-rome-on-a-cloudy-day-with-the-sun-shining-behind.jpg?s=170667a&w=0&k=20&c=qCemPvZkt7tPMFQCARtSV77xGORBFXDtqTuoZLGvx_Q=",
+      name: 'Rome',
+      countryName: "Italy",
+      tempC: "17°c",
+      imageweather : 'https://www.pngall.com/wp-content/uploads/11/Weather-PNG-HD-Image.png',
+      condition: 'Cloudy',
+    },{
+    imagebckg: "https://media.istockphoto.com/id/1368483952/video/blinking-yellow-warning-symbol-loop-animation-footage-on-black-solid-background-2d.jpg?s=640x640&k=20&c=tJx1nC_i8TSoCQHz_MwgoYNJD3OZzhDzDHFQLieBCys=",
+      name: "Don't TRUST the weather forecast",
+      countryName: "Keep your jacket handy",
     },
   ]
   return (

@@ -1,21 +1,30 @@
-:root{
+#root{
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;  
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+    
 }
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 650px) {
      
     
   }
 .city-img{
-    height: auto;
-    width: 50em;
+    height: 50vh;
+    width: 100vw;
 
 }
-h1, h2, p{
-    display: flex;
-    justify-content: center;
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 10rem;
     color: aliceblue;
+    margin: 0;
 }
-button{
+.weather-card{
+    height: 8em;
+}
 
-    }
     
